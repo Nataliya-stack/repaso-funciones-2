@@ -1,9 +1,9 @@
-const recortarTexto = (texto, limite) => texto.slice(0, limite);
-
 const inputEl = document.getElementById("inputTexto");
 const inputNum = document.getElementById("inputNumero")
 const btnEl = document.getElementById("btnCalcular");
 const resultEl = document.getElementById("resultadoTexto");
+
+const recortarTexto = (texto, limite) => texto.slice(0, limite);
 
 btnEl.addEventListener("click", () => {
     const texto = inputEl.value.trim();
