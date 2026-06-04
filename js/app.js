@@ -10,7 +10,7 @@ btnEl.addEventListener("click", () => {
     const numero = parseInt(inputNum.value);
 
     if (texto === "" && numero === isNaN(numero) || numero <= 0) {
-        resultEl.textContent = "Error: ¡Los campos no pueden estar vacío!";        
+        resultEl.textContent = "Error: Datos incorrectos!";        
         resultEl.style.color = "red";
         return; 
     }
