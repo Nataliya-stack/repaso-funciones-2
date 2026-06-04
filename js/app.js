@@ -5,7 +5,7 @@ const resultEl = document.getElementById("resultadoTexto");
 
 const recortarTexto = (texto, limite) => texto.slice(0, limite);
 
-btnEl.addEventListener("submit", () => {
+btnEl.addEventListener("click", () => {
     const texto = inputEl.value.trim();
     const numero = parseInt(inputNum.value);
 
